@@ -15,6 +15,7 @@ public class Greedy_30_Reference {
 		
 		for(int i=0;i<input.length();i++) {
 			N[i] = Integer.parseInt(input.charAt(i)+""); //parseInt는 string을 int로 변환 
+			//Integer.parseInt(char) 이면 error 
 			//Integer.parseInt(string)인데 parseInt(char + "") ==> parseInt(string) 으로 바껴 error 없다 
 			
 			sum+=N[i];
